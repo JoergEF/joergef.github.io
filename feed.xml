@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>it*brainz - the knowledge company</title>
+    <link href="https://joergef.github.io/feed.xml" rel="self" />
+    <link href="https://joergef.github.io" />
+    <updated>2018-12-29T13:12:39+01:00</updated>
+    <author>
+        <name>joerg hofmann</name>
+    </author>
+    <id>https://joergef.github.io</id>
+
+    <entry>
+        <title>Ab heute neu...</title>
+        <author>
+            <name>joerg hofmann</name>
+        </author>
+        <link href="https://joergef.github.io/ab-heute-neu/"/>
+        <id>https://joergef.github.io/ab-heute-neu/</id>
+            <category term="Home"/>
+
+        <updated>2019-01-01T00:00:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://joergef.github.io/media/posts/1/profilbild.jpg" alt="" />
+                    So, ihr Lieben... Da ich seit September 2018 in einer Festanstellung als Consultant bei der IAD GmbH in Erfurt bin, habe ich mich entschlossen, mal meine Seite an die neue Situation anzupassen. Deshalb gibt es an dieser Stelle in Zukunft keine Beschreibung der Dinge mehr, die&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://joergef.github.io/media/posts/1/profilbild.jpg" alt="" />
+                <p>So, ihr Lieben...</p>
+<p>Da ich seit September 2018 in einer Festanstellung als Consultant bei der IAD GmbH in Erfurt bin, habe ich mich entschlossen, mal meine Seite an die neue Situation anzupassen. Deshalb gibt es an dieser Stelle in Zukunft keine Beschreibung der Dinge mehr, die ich für Geld anbieten könnte. Vielmehr lasse ich euch ab sofort an meiner unendlichen Weisheit teilhaben.</p>
+<p>Ich freue mich schon auf eure regelmäßigen Besuche...</p>
+<p>Euer Jörg.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
