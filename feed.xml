@@ -3,7 +3,7 @@
     <title>it*brainz - the knowledge company</title>
     <link href="https://joergef.github.io/feed.xml" rel="self" />
     <link href="https://joergef.github.io" />
-    <updated>2019-01-19T13:20:20+01:00</updated>
+    <updated>2019-01-19T13:22:10+01:00</updated>
     <author>
         <name>joerg hofmann</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://joergef.github.io/wurstchen-im-schlafrock/"/>
         <id>https://joergef.github.io/wurstchen-im-schlafrock/</id>
+            <category term="Essen"/>
 
-        <updated>2019-01-19T13:20:03+01:00</updated>
+        <updated>2019-01-19T13:21:59+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://joergef.github.io/media/posts/7/fullsizeoutput_121c.jpeg" alt="" />
