@@ -3,12 +3,51 @@
     <title>it*brainz - the knowledge company</title>
     <link href="https://joergef.github.io/feed.xml" rel="self" />
     <link href="https://joergef.github.io" />
-    <updated>2019-01-19T13:22:10+01:00</updated>
+    <updated>2019-01-24T20:32:33+01:00</updated>
     <author>
         <name>joerg hofmann</name>
     </author>
     <id>https://joergef.github.io</id>
 
+    <entry>
+        <title>Mailgröße einstellen</title>
+        <author>
+            <name>joerg hofmann</name>
+        </author>
+        <link href="https://joergef.github.io/mailgrosse-einstellen/"/>
+        <id>https://joergef.github.io/mailgrosse-einstellen/</id>
+            <category term="Technik"/>
+            <category term="Systeme"/>
+
+        <updated>2019-01-24T20:28:21+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://joergef.github.io/media/posts/8/dsm.jpg" alt="" />
+                    Heute mal ein Quicktipp... Auf meiner Synology Diskstation mit DSM 6 will ich die Größenbeschränkung für Mails im Mailserver verändern... Standardmäßig hat der Mailserver auf der Diskstation eine Beschränkung der Mailgröße auf 10 MB. Das ist normalerweise ein guter Wert, denn man soll große Dokumente&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://joergef.github.io/media/posts/8/dsm.jpg" alt="" />
+                <p>Heute mal ein Quicktipp...</p>
+<h5 id="mcetoc_1d20jofjq0">Problem:</h5>
+<p>Auf meiner Synology Diskstation mit DSM 6 will ich die Größenbeschränkung für Mails im Mailserver verändern...</p>
+<h5 id="mcetoc_1d20jqo261">Lösung:</h5>
+<p>Standardmäßig hat der Mailserver auf der Diskstation eine Beschränkung der Mailgröße auf 10 MB. Das ist normalerweise ein guter Wert, denn man soll große Dokumente nicht per Mail versenden, sondern besser durch eine Cloud-Freigabe bereitstellen. Manchmal ist das aber leider nicht ohne Weiteres möglich. Deshalb hier für alle, die genau so gesucht haben wie ich die Lösung für DSM ab Version 6:</p>
+<ol>
+<li>In den Einstellungen der Diskstation den SSH-Zugang aktivieren,</li>
+<li><a href="http://www.9bis.net/kitty/?page=Download" target="_blank" rel="nofollow noopener noreferrer">KiTTy</a> (oder <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="nofollow noopener noreferrer">PuTTy</a>) starten und zur IP der Station verbinden</li>
+<li>als (bei der Installation angelegter) Administrator anmelden</li>
+<li><code>sudo vi /var/packages/MailServer/etc/mailserver.conf</code></li>
+<li><code>I</code> für <code>"Einfügen"</code> drücken</li>
+<li><code>message-limit="10"</code> durch <code>message-limit="50"</code> ersetzen für 50MB Mailgröße</li>
+<li>Datei speichern (ESC-Taste drücken, dann entweder <code>ZZ</code> oder <code>:wq</code> eingeben</li>
+<li>in der Weboberfläche im Paketzentrum den Mailserver anhalten und wieder starten.</li>
+</ol>
+<p>Viel Spaß beim Anwenden.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Würstchen im Schlafrock</title>
         <author>
